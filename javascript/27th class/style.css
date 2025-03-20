@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #1CE7DD;
+
+}
+
+.container {
+    width: 50%;
+    margin: 150px auto;
+}
+.inputContainer input {
+    width: 100%;
+    outline: none;
+    padding: 8px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    font-size: 35px;
+  }
+  .tableContainer table {
+    width: 100%;
+    border-spacing: 10px;
+  }
+  
+  .tableContainer table td {
+    padding: 25px;
+    text-align: center;
+    border: none;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.8s ease;
+    font-size: 15px;
+  }
+  .tableContainer table td:hover {
+    background-color: rgb(37, 35, 59);
+    color: #fff;
+    scale: 1.1;
+  }
+
+
